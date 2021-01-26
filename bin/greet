@@ -6,6 +6,6 @@ require_relative "../lib/greeting.rb"
 puts "Hi there, I'm HAL 9000. My friends call me Hal for short."
 puts "What's your name?"
 #get users name with gets method
-name = gets. 
+name = gets. strip
 #call the method for personalized greeting
 greeting(name)
